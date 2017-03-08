@@ -1,7 +1,7 @@
 # iron-ui-kubernetes
 kuberntes deployment files for iron-ui
 #Usage:
-* Add your iron url to iron-ui-confi.yaml:
+* Add your iron url to iron-ui-config.yaml:
 ```
 kind: ConfigMap
 apiVersion: v1
@@ -14,3 +14,4 @@ data:
 ```
   kubectl create -f iron-ui-kubernetes
 ```
+* Then you can access iron-ui by cluster ip(ip:4000) or node ip.
