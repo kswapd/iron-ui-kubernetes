@@ -1,0 +1,6 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: iron-ui-config
+data:
+  API_URL: http://223.202.32.56:8057
